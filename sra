@@ -2,7 +2,7 @@
 #SBATCH -p short
 #SBATCH --job-name=sra
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=giulia.corbet@colorado.edu
+#SBATCH --mail-user=soraya.shehata@colorado.edu
 #SBATCH --nodes=1
 #SBATCH --ntasks=64
 #SBATCH --mem=20gb
@@ -12,9 +12,11 @@
 
 module load sra/2.9.2
 
-fastq-dump --split-files SRX2825943
-fastq-dump --split-files SRX2825942
-fastq-dump --split-files SRX2825941
-fastq-dump --split-files SRX2825945
-fastq-dump --split-files SRX2825944
-fastq-dump --split-files SRX2825949
+fastq-dump --split-files 	SRX375136
+fastq-dump --split-files 	SRX375135
+fastq-dump --split-files  SRX375134
+fastq-dump --split-files  SRX375133
+fastq-dump --split-files  SRX375132
+fastq-dump --split-files  SRX375131
+fastq-dump --split-files  SRX375130
+fastq-dump --split-files  SRX375129
