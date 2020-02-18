@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH -p short
+#SBATCH --job-name=sra
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=soraya.shehata@colorado.edu
+#SBATCH --nodes=1
+#SBATCH --ntasks=64
+#SBATCH --mem=20gb
+#SBATCH --time=10:00:00
+
+### load your module(s)
+
+module load sra/2.9.2
+
+fastq-dump --split-files SRR1027601
+fastq-dump --split-files SRR1027597
+fastq-dump --split-files SRR1027595
