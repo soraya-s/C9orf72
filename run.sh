@@ -15,7 +15,7 @@ module load singularity/3.1.1
 nextflow run nf-core/rnaseq -r 1.4.1 \
 -resume \
 -profile singularity \
---reads './data/*_1.fastq' \
+--singleEnd --reads './data/*.fastq' \
 --fasta './GENOMES/sequence/GRCh38.p13.genome.fa' \
 --gtf './GENOMES/annotation/gencode.v32.annotation.gtf' \
 --pseudo_aligner salmon \
