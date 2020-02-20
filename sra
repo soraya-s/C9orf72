@@ -12,11 +12,27 @@
 
 module load sra/2.9.2
 
-fastq-dump --split-files 	SRX375136
-fastq-dump --split-files 	SRX375135
-fastq-dump --split-files  SRX375134
-fastq-dump --split-files  SRX375133
-fastq-dump --split-files  SRX375132
-fastq-dump --split-files  SRX375131
-fastq-dump --split-files  SRX375130
-fastq-dump --split-files  SRX375129
+fastq-dump --split-files SRR1927020
+fastq-dump --split-files SRR1927022
+fastq-dump --split-files SRR1927028
+fastq-dump --split-files SRR1927034
+fastq-dump --split-files SRR1927036
+fastq-dump --split-files SRR1927038
+fastq-dump --split-files SRR1927040
+fastq-dump --split-files SRR1927042
+fastq-dump --split-files SRR1927056
+fastq-dump --split-files SRR1927024
+fastq-dump --split-files SRR1927026
+fastq-dump --split-files SRR1927030
+fastq-dump --split-files SRR1927032
+fastq-dump --split-files SRR1927044
+fastq-dump --split-files SRR1927046
+fastq-dump --split-files SRR1927048
+fastq-dump --split-files SRR1927050
+fastq-dump --split-files SRR1927058
+fastq-dump --split-files SRR1927060
+fastq-dump --split-files SRR1927062
+fastq-dump --split-files SRR1927064
+fastq-dump --split-files SRR1927066
+fastq-dump --split-files SRR1927068
+fastq-dump --split-files SRR1927070
